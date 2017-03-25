@@ -1,0 +1,22 @@
+{
+  "name": "platzigram-ws",
+  "version": "0.1.0",
+  "description": "Platzigram Realtime Backend",
+  "scripts": {
+    "lint": "standard",
+    "start": "node server.js"
+  },
+  "author": "Diego Molina",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "standard": "^8.6.0"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "dependencies": {
+    "rethinkdb": "^2.3.3",
+    "socket.io": "^1.7.3"
+  }
+}
